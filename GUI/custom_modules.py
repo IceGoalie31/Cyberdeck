@@ -5,7 +5,7 @@ import requests
 def datetime() -> object: #testing function
     city = 'chicago'
     api_url = 'https://api.api-ninjas.com/v1/worldtime?city={}'.format(city)
-    response = requests.get(api_url, headers={'X-Api-Key': "YzRSvd4OLwJHSr387YyyyHM298XwXFhXrxYcKU7N"})
+    response = requests.get(api_url, headers={'X-Api-Key': "API KEY"})
     res = response.json()
     if response.status_code == requests.codes.ok:
         return res['datetime']
