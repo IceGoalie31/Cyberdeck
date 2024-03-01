@@ -7,5 +7,7 @@ Add Xastir to map tab
 
 Add more info to IO tab
 
+auto schedule satellite image downloading whenever a sattelite passes over, display in sat tab
+
 add ability to launch other apps in ETC
-e.g. sdr#, cool-retro-term, etc
+e.g. sdr#, cool-retro-term, kismet (wardriving tab?) etc
