@@ -11,3 +11,4 @@ integrate [this](https://github.com/jekhokie/raspberry-noaa-v2) in sat tab
 
 add ability to launch other apps in ETC
 e.g. sdr#, cool-retro-term, kismet (wardriving tab?) etc
+add [this?](https://github.com/Opendigitalradio/dablin)
