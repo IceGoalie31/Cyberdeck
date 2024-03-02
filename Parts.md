@@ -9,7 +9,7 @@ Keyboard:
 1: [$18](https://www.amazon.com/Arteck-Wireless-Keyboard-Compact-Computer/dp/B09WDJNBT1/)
 
 
-etc.
+etc:
 
 Gps (maybe) [$12](https://www.amazon.com/HiLetgo-Satellite-Positioning-Arduino-Replace/dp/B07X5GVW6Q/)
 
