@@ -2,7 +2,8 @@ import sys
 import custom_modules
 from PyQt5.QtWidgets import * #QApplication, QMainWindow, QTabWidget, QWidget, QVBoxLayout, QPushButton, QLabel
 from PyQt5.QtGui import QFont
-from PyQt5.QtCore import QTimer, QTime, Qt, QProcess, QIODevice
+from PyQt5.QtCore import QTimer, QTime, Qt, QProcess, QIODevice, QUrl
+from qtpy.QtWebEngineWidgets import QWebEngineView
 import psutil
 from socket import AddressFamily
 
@@ -212,6 +213,15 @@ class MainWindow(QMainWindow):
 
                 tab_layout.addWidget(net_group_box)
 
+            if tab_name == "Sat":
+                self.webview = QWebEngineView()
+                tab_layout.addWidget(self.webview)
+                self.webview.load(QUrl('http://google.com/'))
+
+            if tab_name == "Pwn":
+                self.webview = QWebEngineView()
+                tab_layout.addWidget(self.webview)
+                self.webview.load(QUrl('http://google.com/'))
 
 
         # Add tab widget to the main layout
